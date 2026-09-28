@@ -19,6 +19,12 @@
     <Filter Include="externals\imgui">
       <UniqueIdentifier>{1c4bc103-d475-410a-bb5b-7babd2ffa289}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Test">
+      <UniqueIdentifier>{5c2167d0-beb7-4a6d-85ac-1849b40d2b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Test">
+      <UniqueIdentifier>{64ea2a07-9336-4cf5-a444-30edcd8bd89d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -48,5 +54,10 @@
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="VertexShader.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test\TestFunction.h">
+      <Filter>ヘッダー ファイル\Test</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
